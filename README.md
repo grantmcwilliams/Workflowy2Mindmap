@@ -25,8 +25,8 @@ http://xmlsoft.org/XSLT/xsltproc2.html
 
 ##Directions
 
-1. Create an outline in Workflowy
+1. Create an outline in Workflowy (workflowy.com)
 2. Export your outline in OPML format to your local harddrive
-3. Run workflowy2mm.sh <your OPML file> 
+3. Run workflowy2mm.sh `<your OPML file>` 
 4. Go to www.mindmup.com and import the MindMap file from Google Drive
 
