@@ -25,6 +25,7 @@ needs to be in your system path.
 http://xmlsoft.org/XSLT/xsltproc2.html
 
 Directions:
+===========
 1. Create an outline in Workflowy
 2. Export your outline in OPML format to your local harddrive
 3. Run workflowy2mm.sh <your OPML file> 
