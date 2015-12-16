@@ -15,6 +15,8 @@ The gdrive tool is used to store MindMap files on Google Drive.
 This command needs to be in your system path.
 
 Install google gdrive from here - https://github.com/prasmussen/gdrive.
+Gdrive needs to be configured by running gdrive, going to the provided web URL and 
+logging in, then pasting the resulting code back into the terminal.
 
 ####xsltproc
 
