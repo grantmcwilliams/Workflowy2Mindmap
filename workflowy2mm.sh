@@ -47,9 +47,11 @@ if ! hash xsltproc 2>/dev/null ;then
 fi
 
 # Check to see if gdrive exists in the path
-if ! hash drive 2>/dev/null ;then
-	echo "gdrive needs to be installed in your PATH and configured - exiting"
-	exit 1
+if [[ "${GDRIVE}" = "true" ]] ;then
+	if ! hash drive 2>/dev/null ;then
+		echo "gdrive needs to be installed in your PATH and configured - exiting"
+		exit 1
+	fi
 fi
 
 # Convert OPML to Mindmap
