@@ -12,7 +12,8 @@ MindMup which loads MindMap formatted files from Google drive.
 ####gdrive
 
 The gdrive tool is used to store MindMap files on Google Drive.
-This command needs to be in your system path.
+This command needs to be in your system path. If you only want to save local files
+you do not need to install gdrive.
 
 Install google gdrive from here - https://github.com/prasmussen/gdrive.
 Gdrive needs to be configured by running gdrive, going to the provided web URL and 
